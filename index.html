@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <script>
-  if (window.innerWidth < 768) {
+ <script>
+  var isMobile = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent) || window.screen.width < 768;
+  if (isMobile) {
     window.location.replace("indexmobile2.html");
   }
 </script>
