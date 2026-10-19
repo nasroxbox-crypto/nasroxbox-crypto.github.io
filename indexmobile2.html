@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Prima Chocolat - Premium European Chocolate</title>
+  <title>Prima ice cream</title>
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="icon" type="image/jpg" href="favicon.jpg">
   <style>
@@ -332,64 +332,7 @@
       object-fit: cover; display: block;
     }
 
-    /* ═══════════════════════════════
-       STORY
-    ═══════════════════════════════ */
-    .story-section { padding: 6rem 5rem; background: #f5f0f8; }
-    .story-section .section-title { margin-bottom: 2.5rem; }
-    .story-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 1.8rem;
-    }
-    .story-block {
-      background: #fff; border-radius: 22px;
-      padding: 2.2rem;
-      border: 1px solid rgba(139,94,201,0.1);
-      transition: box-shadow 0.3s;
-    }
-    .story-block:hover { box-shadow: 0 12px 40px rgba(107,75,162,0.1); }
-    .story-icon {
-      width: 48px; height: 48px;
-      background: linear-gradient(135deg,#8b5ec9,#6b4ba2);
-      border-radius: 13px;
-      display: flex; align-items: center; justify-content: center;
-      margin-bottom: 1rem; font-size: 1.4rem;
-    }
-    .story-block h3 {
-      font-family: 'Poppins', sans-serif;
-      font-size: 1.25rem; color: #4a2c7a; margin-bottom: 0.6rem;
-    }
-    .story-block p { font-size: 0.97rem; color: #6b6b7a; line-height: 1.75; }
-
-    /* ═══════════════════════════════
-       SUSTAINABILITY
-    ═══════════════════════════════ */
-    .sus-section { padding: 6rem 5rem; background: #fff; }
-    .sus-section .section-title { text-align: center; margin-bottom: 3rem; }
-    .sus-section .section-title small { justify-content: center; display: block; }
-    .sus-grid {
-      display: grid; grid-template-columns: repeat(3,1fr);
-      gap: 1.8rem;
-    }
-    .sus-card {
-      background: #f5f0f8; border-radius: 22px;
-      padding: 2.2rem; text-align: center;
-      transition: transform 0.3s;
-    }
-    .sus-card:hover { transform: translateY(-4px); }
-    .sus-icon {
-      width: 68px; height: 68px;
-      background: linear-gradient(135deg,#8b5ec9,#5a3698);
-      border-radius: 50%;
-      display: flex; align-items: center; justify-content: center;
-      font-size: 1.7rem; margin: 0 auto 1.2rem;
-    }
-    .sus-card h3 {
-      font-family: 'Poppins', sans-serif;
-      font-size: 1.15rem; color: #4a2c7a; margin-bottom: 0.6rem;
-    }
-    .sus-card p { font-size: 0.95rem; color: #6b6b7a; line-height: 1.7; }
+ 
 
     /* ═══════════════════════════════
        CTA
@@ -484,7 +427,7 @@
       .slide.active { opacity: 1; visibility: visible; }
       .slider-bar { grid-row: 2; grid-column: 1; }
 
-      .varieties-section, .story-section, .sus-section, .cta-section { padding: 4rem 2rem; }
+     .varieties-section, .cta-section { padding: 4rem 2rem; }
       .section-title { font-size: 2.1rem; }
 
       .featured-section { grid-template-columns: 1fr; min-height: 0; }
@@ -492,8 +435,7 @@
       .featured-content h2 { font-size: 3rem; }
       .featured-img-panel { height: 340px; }
 
-      .story-grid { grid-template-columns: 1fr; }
-      .sus-grid { grid-template-columns: 1fr; }
+      
       .cta-section h2 { font-size: 2.3rem; }
 
       .footer { padding: 3.5rem 2rem 2rem; }
@@ -558,7 +500,7 @@
       .slider-dot.active { width: 28px; }
 
       /* Section spacing + titles */
-      .varieties-section, .story-section, .sus-section { padding: 3.2rem 1.25rem; }
+     .varieties-section { padding: 3.2rem 1.25rem; }
       .section-title { font-size: 1.75rem; text-wrap: balance; }
       .section-title small { font-size: 0.68rem; }
       .sus-section .section-title { text-align: left; margin-bottom: 1.8rem; }
@@ -811,62 +753,33 @@
 
 
 <!-- ════════════════════════════════════════
-     BRAND STORY
+     FEATURED 2
 ════════════════════════════════════════ -->
-<section class="story-section" id="story">
-  <h2 class="section-title">
-    <small>Who We Are</small>
-    Our Chocolate Story
-  </h2>
-  <div class="story-grid">
-    <div class="story-block">
-      <div class="story-icon">🏛️</div>
-      <h3>Heritage & Tradition</h3>
-      <p>For generations, we've crafted chocolate with the same passion and dedication that started it all. Every bar carries the warmth of our family tradition.</p>
-    </div>
-    <div class="story-block">
-      <div class="story-icon">🌿</div>
-      <h3>Premium Ingredients</h3>
-      <p>We source only the finest cocoa beans and natural ingredients, ensuring every bite is a testament to quality and authenticity.</p>
-    </div>
-    <div class="story-block">
-      <div class="story-icon">✨</div>
-      <h3>Artisan Craftsmanship</h3>
-      <p>Our master chocolatiers blend time-honored techniques with modern innovation to create chocolate that's truly exceptional.</p>
-    </div>
-    <div class="story-block">
-      <div class="story-icon">❤️</div>
-      <h3>Family Values</h3>
-      <p>From our family to yours, we believe chocolate brings people together and creates moments of pure joy.</p>
-    </div>
+<section class="featured-section alt" id="about">
+  <div class="featured-content">
+    <p class="feat-eyebrow">PRIMA GLACES</p>
+    <h2>Fun in Every Flavour</h2>
+    <p class="feat-text">Write your second featured text here. Add a short description of the product or the idea behind it.</p>
+    <button class="hero-btn">Learn More</button>
+  </div>
+  <div class="featured-img-panel">
+    <img src="photo_5956526822856003511_y.jpg"" alt="Prima Featured 2">
   </div>
 </section>
 
 
 <!-- ════════════════════════════════════════
-     SUSTAINABILITY
+     FEATURED 3
 ════════════════════════════════════════ -->
-<section class="sus-section" id="sustainability">
-  <h2 class="section-title">
-    <small>Our Commitment</small>
-    Good for You, Good for the Planet
-  </h2>
-  <div class="sus-grid">
-    <div class="sus-card">
-      <div class="sus-icon">♻️</div>
-      <h3>Eco Packaging</h3>
-      <p>Our packaging is designed to minimize environmental impact while keeping your chocolate fresh.</p>
-    </div>
-    <div class="sus-card">
-      <div class="sus-icon">🤝</div>
-      <h3>Fair Trade</h3>
-      <p>We believe in fair wages and supporting the communities that make our chocolate possible.</p>
-    </div>
-    <div class="sus-card">
-      <div class="sus-icon">🌱</div>
-      <h3>Sustainable Sourcing</h3>
-      <p>We partner with ethical farms to ensure our cocoa is grown responsibly for future generations.</p>
-    </div>
+<section class="featured-section" id="discover">
+  <div class="featured-content">
+    <p class="feat-eyebrow">PRIMA GLACES</p>
+    <h2>Taste the Moment</h2>
+    <p class="feat-text">Write your third featured text here. Add a short description of the product or the idea behind it.</p>
+    <button class="hero-btn">Discover More</button>
+  </div>
+  <div class="featured-img-panel">
+    <img src=""photo_5956526822856003511_y.jpg" alt="Prima Featured 3">
   </div>
 </section>
 
